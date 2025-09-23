@@ -90,6 +90,7 @@ Select i.BillingCountry,g.GenreId,g.Name, Name_count
 From GENREPOPULARITY
 WHERE GenreRank = 1
 order by Name_count;
+(Another method)
 WITH GenrePopularity AS (
     SELECT 
         i.BillingCountry,
@@ -109,7 +110,7 @@ SELECT BillingCountry, GenreName, Name_count
 FROM GenrePopularity
 WHERE GenreRank = 1
 ORDER BY BillingCountry;
-
+(Another method)
 Select i.BillingCountry,g.GenreId,g.Name,COUNT(*) AS Name_count
 from invoice i
 join invoiceline il ON i.invoiceId = il.invoiceId
@@ -129,6 +130,7 @@ Select *
 From TOP_SPENDING
 ORDER BY New_Total DESC;
 
+(Another method)
 WITH TOP_SPENDING AS (
     SELECT C.CustomerId,
            C.FirstName,
