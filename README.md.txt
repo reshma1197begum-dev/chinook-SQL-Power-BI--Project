@@ -34,3 +34,21 @@ The project uses the **Chinook Database** (MySQL version) available on [Kaggle](
 9.	Customer spending per artist (using CTE)
 10.	Most popular genre by country (using window function)
 11.	Top-spending customer in each country
+
+# Chinook Music Store Dashboard 🎵
+A Power BI dashboard analyzing sales, customers, and music genre insights from the Chinook database.
+
+## Features
+- KPIs: Total Revenue, Total Customers, Tracks Sold, Avg Revenue/Customer
+- Visuals: Revenue by Genre, Revenue by Country
+- Slicers: Date, Genre, Country
+
+## Dashboard Preview
+![Dashboard Screenshot](images/Chinook_Dashboard.png)
+
+## Tools Used
+- Power BI
+- SQL (MySQL for data extraction)
+- GitHub for version control
+
+
